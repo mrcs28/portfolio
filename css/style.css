@@ -3,7 +3,7 @@ header {
     display: flex;
     background-color: #1a1a86;
     border-bottom: 10px solid;
-    padding: 18px 20px;
+    padding: 6px 20px;
     justify-content: space-between;
     align-items: center;
 }
@@ -19,7 +19,7 @@ img {
 nav {
     display: flex;
     text-align: right;
-    margin: 8px;
+    margin: 2px;
 }
 
 a {
