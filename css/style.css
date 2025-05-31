@@ -32,24 +32,10 @@ a {
     margin-right: 30px;
 }
 
-a:hover {
-    transform: scale(1.1, 1.1);
-    padding: 5px;
-    transition: transform 500ms;
-}
-
 a::before {
     background-color: #976391;
     content: "";
     width: 10px;
     height: 10px;
     margin-right: 10px;
-}
-
-#buttonDownload {
-    display: inline-block;
-    background-color: #976391;
-    padding: 18px 20px;
-    box-shadow: 5px 5px 0 #000;
-    margin-right: 0px;
 }
