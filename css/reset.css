@@ -25,6 +25,12 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	border: none;
+	font-family: "Fira Code", sans-serif, arial;
+}
+button {
+	border: none;
+	font-family: inherit;
 }
 ol, ul {
 	list-style: none;

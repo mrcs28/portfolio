@@ -11,4 +11,8 @@
     padding: 18px 20px;
     box-shadow: 5px 5px 0 #000;
     margin-right: 0px;
+    font-size: 20px;
+    color: #fff;
+    font-family: inherit;
+    text-decoration: none;
 }

@@ -1,41 +1,4 @@
 
-header {
-    display: flex;
-    background-color: #1a1a86;
-    border-bottom: 10px solid;
-    padding: 6px 20px;
-    justify-content: space-between;
-    align-items: center;
-}
 
-img {
-    width: 65px;
-    height: 65px;
-    margin-left: 30px;
-    padding: 0;
-}
 
-nav {
-    display: flex;
-    text-align: right;
-    margin: 2px;
-}
 
-a {
-    display: inline-flex;
-    align-items: center;
-    font-family: "Fira Code", sans-serif, arial;
-    font-weight: medium;
-    color: #fff;
-    font-size: 20px;
-    text-decoration: none;
-    margin-right: 30px;
-}
-
-a::before {
-    background-color: #976391;
-    content: "";
-    width: 10px;
-    height: 10px;
-    margin-right: 10px;
-}
