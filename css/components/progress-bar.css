@@ -1,0 +1,23 @@
+ .progress-bar{
+    border: 5px solid #fff;
+    height: 30px;
+    margin-top: 10px;
+    border: solid 5px #000;
+    flex-wrap: wrap;
+}
+
+.right .progress-bar {
+    background-color: #fff;
+}
+
+progress.progress-bar::-webkit-progress-bar {
+    background-color: #eee;  /* Fundo da barra */
+}
+
+progress.progress-bar::-webkit-progress-value {
+    background-color: #1a1a86; /* Cor da "barra" de progresso */
+}
+
+progress.progress-bar::-moz-progress-bar {
+    background-color: #1a1a86;  /* Cor da "barra" de progresso no firefox */
+}

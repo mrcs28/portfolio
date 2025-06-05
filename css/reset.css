@@ -27,6 +27,8 @@ body {
 	line-height: 1;
 	border: none;
 	font-family: "Fira Code", sans-serif, arial;
+	margin: none;
+	padding: none;
 }
 button {
 	border: none;

@@ -1,25 +1,24 @@
 .sectionPrincipal {
-    display: flexbox;
+    display: flex;
     background-image: url(../../assets/images/bannereu.png);
     height: 540px;
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: 100%;
     padding-top: 30px;
     padding-bottom: 50px;
     border-bottom: 10px solid;
+    margin: none;
+    padding: none;
+    overflow: hidden;
 }
 
 .sectionPrincipal .wrapper {
     flex-direction: column;
-    width: 700px;
-    margin-left: 300px;
-    margin-top: 10px;
+    margin-left: 280px;
 }
 
 .sectionPrincipal .navigation {
     display: flex;
     justify-content: space-evenly;
-    margin-left: 30px;
     margin-top: 20px;
 }
 

@@ -1,9 +1,31 @@
 .section {
     display: flex;
     background-color:#976391;
-    width: 100%;
+    border-bottom: 10px solid #000;
     justify-content: center;
-    padding-top: 50px;
+    width: 100%;
     padding-bottom: 100px;
-    border-bottom: solid 10px #1a1a86;
+}
+
+.section .wrapper-skills-1 {
+    padding-right: 150px;
+}
+
+.section.-second {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #3C3191
+}
+.section.-second #logoProject img {
+    align-items: center;
+    width: 280px;
+    height: 280px;
+    box-shadow: 10px 10px 5px #fff;
+    margin-top: 80px;
+}
+
+.section.-second #logoProject img:hover {
+    transform:scale(1.1, 1.1);
+    transition: transform 400ms;
 }
